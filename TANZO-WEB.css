@@ -1,0 +1,32 @@
+
+@font-face{
+    font-family: viagram;
+    src:url(Viagram.otf);
+}
+@font-face{
+    font-family: SZA;
+    src:url(Griffiths.otf);
+}
+@font-face{
+    font-family: palette;
+    src:url(Palette\ Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin-top: 22%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    font-family: viagram;
+    font-size: 460%;
+    font-style: italic;
+}
+
+p{
+    margin-left: 10%;
+    font-family: helvetica;
+    font-size: 120%;
+}

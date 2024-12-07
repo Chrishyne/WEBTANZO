@@ -1,0 +1,43 @@
+
+@font-face{
+    font-family: palette;
+    src:url(Palette\ Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-top: 300px;
+    padding: 0 100px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.box h3{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px; 
+    color: rgb(24, 27, 39);
+    font-family: palette;
+    text-align: center;
+}
+
+.box p{
+    color: rgb(21, 37, 41);
+    font-family: helvetica;
+}

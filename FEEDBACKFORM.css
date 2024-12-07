@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: helvetica;
+    background: linear-gradient(rgb(213, 205, 161),rgb(202, 198, 158));
+}
+.feedback-form{
+    height: 100vh;
+    display: flex;
+    float: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.feedback-left{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback-left-title h2{
+    font-family: helvetica;
+    font-weight: 600;
+    color: rgb(21, 37, 41);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.feedback-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(21, 37, 41);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feedback-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.feedback-left textarea{
+    height: 140px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-radius: 23px;
+}
+.feedback-input:focus{
+    border: 2px solid rgb(146, 134, 97);
+}
+.feedback-input::placeholder{
+    color:rgb(0, 0, 0);
+}
+.feedback-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+}
+@media (max-width:800px){
+    .feedback-input{
+        width: 80vw;
+    }
+}
